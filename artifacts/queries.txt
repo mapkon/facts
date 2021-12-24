@@ -1,0 +1,16 @@
+INPUT is_a_cat (lucy)
+INPUT is_a_cat (garfield)
+INPUT is_a_cat (bowler_cat)
+INPUT make_a_triple (3, 4, 5)
+INPUT loves (garfield, lasagna)
+INPUT make_a_triple (5, 12, 13)
+
+
+QUERY is_a_cat (X)
+QUERY are_friends (Y, Y)
+QUERY make_a_triple (X, 4, Y)
+QUERY make_a_triple (X, X, Y)
+
+QUERY loves (garfield, FavoriteFood)
+
+exposé
